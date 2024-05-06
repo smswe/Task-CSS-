@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding:0;
+    background:url(bg.jpg); 
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.avatar{
+    height: 80px;
+    border-radius: 50%; 
+    position: absolute;
+    top: -50px;  
+    /* left: calc(50% - 50px); */
+    margin-left: 80px;
+}
+
+.lobox{
+    width: 300px;
+    height: 450px;
+    background: black;
+    color: white;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width:100%;
+    margin-bottom: 20px;
+
+}
+
+input[type="text"],[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #0c8854;
+    color: #000;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 25px;
+    color: darkgray;
+    padding-bottom: 0px;
+}
+ a:hover{
+    color: rgb(4, 121, 216);
+ }
+
+
+
